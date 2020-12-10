@@ -19,6 +19,7 @@ class Converter
         $productId = $data->get('GoodsId');
 
         return [
+            'channel' => 'xuandan',
             'product' => [
                 'id' => $productId,
                 'shop_id' => $shopId,
